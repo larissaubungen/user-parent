@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User management</title>
+</head>
+<body>
+<h3>Enter User Details</h3>
+<form method="post" action="AddUserServlet">
+	<div>User Id: <input name="id"></div>
+	<div>User Name: <input name="name"></div>
+	<div>User Description: <input type="email" name="email"></div>
+	<input type="submit" value="Submit">
+</form>
+<br/>
+<hr/>
+<h3>Get User Details</h3>
+<form method="get" action="DisplayUserServlet">
+	<div>User Id: <input name="id"></div>
+	<input type="submit" value="Submit">
+</form>
+</body>
+</html>
